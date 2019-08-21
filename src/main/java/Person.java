@@ -1,11 +1,17 @@
 
-class Employee {
-    String name;
-    int age;
-    Employee(){
-        age = 20;
-        System.out.println("user defined constructor");
+class Person {
+   private String name;
 
+    Person(String newName){
+        name = newName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String val) {
+         name = val;
     }
 }
 
