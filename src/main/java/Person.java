@@ -13,5 +13,11 @@ class Person {
     public void setName(String val) {
          name = val;
     }
+    public void resetValueOfMemberVariable(Person p1) {
+        //Person p = new Person("Reddy");
+        p1.setName("Reddy");
+    }
+
+
 }
 
